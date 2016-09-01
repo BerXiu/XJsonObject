@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/BerXiu/XJsonObject"
   s.license      = "MIT (example)"
   s.author             = { "Xiu" => "gogs@fake.local" }
-  s.source       = { :git => "git@github.com:BerXiu/XJsonObject.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/BerXiu/XJsonObject.git", :tag => "0.0.1" }
   s.source_files  = "XJsonObject", "XJsonObject/XJsonObject/*.{h,m}"
 end
