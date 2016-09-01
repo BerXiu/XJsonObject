@@ -14,23 +14,4 @@ pod 'XJsonObject'
 
 ##Usage
 
-#####Create Rounding Image
-```
-	UIImageView *roundingImage = [[UIImageView alloc]initWithRoundingRectImageView];
-	roundingImage.image = [UIImage imageNamed:@"testImage"];
-	[roundingImage setFrame:CGRectMake(centerX - 120, centerY - 120, 100, 100)];
-	[self.view addSubview:roundingImage];
-```
 
-#####set the coustom ConrnerRadius
-```
-    UIImageView *cornerRadius = [[UIImageView alloc]initCornerRadius:25 type: UIRectCornerTopLeft | UIRectCornerBottomRight];
-    cornerRadius.image = [UIImage imageNamed:@"testImage"];
-    [cornerRadius setFrame:CGRectMake(centerX - 120, centerY + 20, 100, 100)];
-    [self.view addSubview:cornerRadius];
-```
-
-#####set the borderWidth and borderColor
-```
-	[roundingImage x_setBorderWidth:5 borderColor:[UIColor orangeColor]];
-```
