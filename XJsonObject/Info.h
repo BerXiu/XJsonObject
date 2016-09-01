@@ -14,6 +14,8 @@
 
 @interface Info : XJsonObject
 
+@property (nonatomic, readonly) NSString *nullStr;
+
 @property (nonatomic, readonly) NSString * intValue;
 
 @property (nonatomic, readonly) NSString * name;

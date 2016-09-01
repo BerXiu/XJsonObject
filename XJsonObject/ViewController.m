@@ -10,7 +10,7 @@
 #import "Info.h"
 #import "XJsonObject.h"
 #import "InfoItems.h"
-
+#import "XJsonObject+Output.h"
 @interface ViewController ()
 
 @end
@@ -51,6 +51,8 @@
     for (InfoItems *item in objItems) {
         NSLog(@"%@",item.name);
     }
+    
+    NSLog(@"%@",obj.dictionaryFormInfoNone);
 }
 
 - (void)didReceiveMemoryWarning {
