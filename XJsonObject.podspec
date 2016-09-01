@@ -8,8 +8,11 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/BerXiu/XJsonObject"
+  s.platform = :ios, "7.0"
   s.license      = "MIT (example)"
   s.author             = { "Xiu" => "gogs@fake.local" }
   s.source       = { :git => "https://github.com/BerXiu/XJsonObject.git", :tag => "0.0.1" }
   s.source_files  = "XJsonObject", "XJsonObject/XJsonObject/*.{h,m}"
+  s.requires_arc = true
+  s.framework = "UIKit"
 end
