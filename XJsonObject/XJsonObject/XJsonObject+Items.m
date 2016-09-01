@@ -38,10 +38,10 @@
             item.name = [[NSString alloc]initWithCString:property_getName(property) encoding:NSUTF8StringEncoding];
             item.attributes = [[NSString alloc]initWithCString:property_getAttributes(property) encoding:NSUTF8StringEncoding];
             
-            if (![self instancesRespondToSelector:NSSelectorFromString([self setterStringWithName:item.name])]) {
-                // 不支持setter，不登记属性
-                continue;
-            }
+//            if (![self instancesRespondToSelector:NSSelectorFromString([self setterStringWithName:item.name])]) {
+//                // 不支持setter，不登记属性
+//                continue;
+//            }
             
             // 如果是对象,就确定对象的类
             if (item.type == XJsonObjectTypeXJsonObject) {
