@@ -13,11 +13,11 @@
 		460DEC441D758E700020D507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460DEC421D758E700020D507 /* Main.storyboard */; };
 		460DEC461D758E700020D507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460DEC451D758E700020D507 /* Assets.xcassets */; };
 		460DEC491D758E700020D507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 460DEC471D758E700020D507 /* LaunchScreen.storyboard */; };
-		460DEC531D758EB70020D507 /* XJsonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 460DEC521D758EB70020D507 /* XJsonObject.m */; };
-		460DEC561D7591C20020D507 /* XJsonProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 460DEC551D7591C20020D507 /* XJsonProperty.m */; };
 		460DEC591D759C610020D507 /* Info.m in Sources */ = {isa = PBXBuildFile; fileRef = 460DEC581D759C610020D507 /* Info.m */; };
-		460DEC5F1D76838F0020D507 /* XJsonObject+Items.m in Sources */ = {isa = PBXBuildFile; fileRef = 460DEC5E1D76838F0020D507 /* XJsonObject+Items.m */; };
 		460DEC621D77D0FA0020D507 /* InfoItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 460DEC611D77D0FA0020D507 /* InfoItems.m */; };
+		460DEC6A1D77D7730020D507 /* XJsonObject+Items.m in Sources */ = {isa = PBXBuildFile; fileRef = 460DEC651D77D7730020D507 /* XJsonObject+Items.m */; };
+		460DEC6B1D77D7730020D507 /* XJsonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 460DEC671D77D7730020D507 /* XJsonObject.m */; };
+		460DEC6C1D77D7730020D507 /* XJsonProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 460DEC691D77D7730020D507 /* XJsonProperty.m */; };
 		F63F14F5C7F66CEF982C9893 /* libPods-XJsonObject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F53C7F391B1202D0E47175D8 /* libPods-XJsonObject.a */; };
 /* End PBXBuildFile section */
 
@@ -32,16 +32,16 @@
 		460DEC451D758E700020D507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		460DEC481D758E700020D507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		460DEC4A1D758E700020D507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		460DEC511D758EB70020D507 /* XJsonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJsonObject.h; sourceTree = "<group>"; };
-		460DEC521D758EB70020D507 /* XJsonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJsonObject.m; sourceTree = "<group>"; };
-		460DEC541D7591C20020D507 /* XJsonProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJsonProperty.h; sourceTree = "<group>"; };
-		460DEC551D7591C20020D507 /* XJsonProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJsonProperty.m; sourceTree = "<group>"; };
 		460DEC571D759C610020D507 /* Info.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Info.h; sourceTree = "<group>"; };
 		460DEC581D759C610020D507 /* Info.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Info.m; sourceTree = "<group>"; };
-		460DEC5D1D76838F0020D507 /* XJsonObject+Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XJsonObject+Items.h"; sourceTree = "<group>"; };
-		460DEC5E1D76838F0020D507 /* XJsonObject+Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XJsonObject+Items.m"; sourceTree = "<group>"; };
 		460DEC601D77D0FA0020D507 /* InfoItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoItems.h; sourceTree = "<group>"; };
 		460DEC611D77D0FA0020D507 /* InfoItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoItems.m; sourceTree = "<group>"; };
+		460DEC641D77D7730020D507 /* XJsonObject+Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XJsonObject+Items.h"; sourceTree = "<group>"; };
+		460DEC651D77D7730020D507 /* XJsonObject+Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XJsonObject+Items.m"; sourceTree = "<group>"; };
+		460DEC661D77D7730020D507 /* XJsonObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJsonObject.h; sourceTree = "<group>"; };
+		460DEC671D77D7730020D507 /* XJsonObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJsonObject.m; sourceTree = "<group>"; };
+		460DEC681D77D7730020D507 /* XJsonProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XJsonProperty.h; sourceTree = "<group>"; };
+		460DEC691D77D7730020D507 /* XJsonProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XJsonProperty.m; sourceTree = "<group>"; };
 		63E3C33EB93037A2249D7BDE /* Pods-XJsonObject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJsonObject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XJsonObject/Pods-XJsonObject.debug.xcconfig"; sourceTree = "<group>"; };
 		E8A9C3DC3B0BC94C285CDB34 /* Pods-XJsonObject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XJsonObject.release.xcconfig"; path = "Pods/Target Support Files/Pods-XJsonObject/Pods-XJsonObject.release.xcconfig"; sourceTree = "<group>"; };
 		F53C7F391B1202D0E47175D8 /* libPods-XJsonObject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XJsonObject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,7 +88,7 @@
 		460DEC381D758E700020D507 /* XJsonObject */ = {
 			isa = PBXGroup;
 			children = (
-				460DEC501D758E860020D507 /* New Group */,
+				460DEC631D77D7730020D507 /* XJsonObject */,
 				460DEC3C1D758E700020D507 /* AppDelegate.h */,
 				460DEC3D1D758E700020D507 /* AppDelegate.m */,
 				460DEC3F1D758E700020D507 /* ViewController.h */,
@@ -114,17 +114,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		460DEC501D758E860020D507 /* New Group */ = {
+		460DEC631D77D7730020D507 /* XJsonObject */ = {
 			isa = PBXGroup;
 			children = (
-				460DEC511D758EB70020D507 /* XJsonObject.h */,
-				460DEC521D758EB70020D507 /* XJsonObject.m */,
-				460DEC5D1D76838F0020D507 /* XJsonObject+Items.h */,
-				460DEC5E1D76838F0020D507 /* XJsonObject+Items.m */,
-				460DEC541D7591C20020D507 /* XJsonProperty.h */,
-				460DEC551D7591C20020D507 /* XJsonProperty.m */,
+				460DEC641D77D7730020D507 /* XJsonObject+Items.h */,
+				460DEC651D77D7730020D507 /* XJsonObject+Items.m */,
+				460DEC661D77D7730020D507 /* XJsonObject.h */,
+				460DEC671D77D7730020D507 /* XJsonObject.m */,
+				460DEC681D77D7730020D507 /* XJsonProperty.h */,
+				460DEC691D77D7730020D507 /* XJsonProperty.m */,
 			);
-			name = "New Group";
+			path = XJsonObject;
 			sourceTree = "<group>";
 		};
 		B795A2BE36CAD78E9BCA9AE6 /* Pods */ = {
@@ -258,12 +258,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				460DEC411D758E700020D507 /* ViewController.m in Sources */,
-				460DEC531D758EB70020D507 /* XJsonObject.m in Sources */,
+				460DEC6C1D77D7730020D507 /* XJsonProperty.m in Sources */,
 				460DEC3E1D758E700020D507 /* AppDelegate.m in Sources */,
 				460DEC3B1D758E700020D507 /* main.m in Sources */,
+				460DEC6B1D77D7730020D507 /* XJsonObject.m in Sources */,
 				460DEC621D77D0FA0020D507 /* InfoItems.m in Sources */,
-				460DEC5F1D76838F0020D507 /* XJsonObject+Items.m in Sources */,
-				460DEC561D7591C20020D507 /* XJsonProperty.m in Sources */,
+				460DEC6A1D77D7730020D507 /* XJsonObject+Items.m in Sources */,
 				460DEC591D759C610020D507 /* Info.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

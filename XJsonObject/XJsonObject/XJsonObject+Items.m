@@ -38,6 +38,11 @@
             item.name = [[NSString alloc]initWithCString:property_getName(property) encoding:NSUTF8StringEncoding];
             item.attributes = [[NSString alloc]initWithCString:property_getAttributes(property) encoding:NSUTF8StringEncoding];
             
+            if (![self instancesRespondToSelector:NSSelectorFromString([self setterStringWithName:item.name])]) {
+                // 不支持setter，不登记属性
+                continue;
+            }
+            
             // 如果是对象,就确定对象的类
             if (item.type == XJsonObjectTypeXJsonObject) {
                 NSRange start = [item.attributes rangeOfString:@"T@\""];
@@ -62,4 +67,16 @@
     
     return callBackData;
 }
+
+// 获取setter方法名
++ (NSString *)setterStringWithName:(NSString *)name
+{
+    if (name.length == 0) {
+        return nil;
+    }
+    NSString * first = [name substringToIndex:1];
+    NSString * secon = [name substringFromIndex:1];
+    return [NSString stringWithFormat:@"set%@%@:", first.uppercaseString, secon];
+}
+
 @end
