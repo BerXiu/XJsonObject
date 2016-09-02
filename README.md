@@ -15,6 +15,11 @@
 ```
 pod 'XJsonObject'
 ```
+[!] Unable to find a pod with name, author, summary, or descriptionmatching `XJsonObject`
+```
+rm ~/Library/Caches/CocoaPods/search_index.json
+pod search XJsonObject
+```
 ##introduction
 Will the Json data network request, NSDictionary, array, mapping model for the data.
 
