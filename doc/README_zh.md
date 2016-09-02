@@ -7,7 +7,7 @@
 	<h5 align="center">对象序列化和网络数据解析，自动将数组映射成本地对象</h5>
 </br>
 
-# Language
+# 文档语言
 * [English](README.md)
 * [中文](doc/README_zh.md)
 
