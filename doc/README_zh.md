@@ -15,6 +15,11 @@
 ```
 pod 'XJsonObject'
 ```
+[!] Unable to find a pod with name, author, summary, or descriptionmatching `XJsonObject`
+```
+rm ~/Library/Caches/CocoaPods/search_index.json
+pod search XJsonObject
+```
 ##常用场景：
 将网络请求Json数据、NSDictionary、数组，映射为数据模型。
 
