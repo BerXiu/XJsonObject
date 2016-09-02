@@ -8,7 +8,7 @@
 </br>
 
 # 文档语言
-* [English](README.md)
+* [English](./README.md)
 * [中文](doc/README_zh.md)
 
 ##引入
