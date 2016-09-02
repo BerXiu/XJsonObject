@@ -32,7 +32,7 @@ Support array object serialization into directly!
 ##Use
 ### mapping model for the data
 ```
-    // 模拟网络数据
+    // data
     NSDictionary * dic = @{ @"testObj": @{  @"name": @"test2",
                                             @"intValue": @(80) },
                             @"name":        @"test1",
@@ -41,10 +41,10 @@ Support array object serialization into directly!
                             @"testItems":   @[  @{ @"name": @"testName1"},
                                                 @{ @"name": @"testName2"},
                                                 @{ @"name": @"testName3"}]};
-    // 调用
+    // add
     Info * obj = [Info objectWithDictionary:dic];
 
-    // 输出
+    // output
     NSLog(@"%@", obj.intValue);
     NSLog(@"%@", obj.name);
     NSLog(@"%@", obj.testItems.firstObject.name);
